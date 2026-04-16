@@ -4,201 +4,279 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ovdos | Institutional Infrastructure & AI Services</title>
-    <meta name="description" content="Ovdos builds the digital backbone for modern institutions, providing a growing ecosystem of AI-led products and services.">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Ovdos builds the digital backbone for modern institutions — a growing ecosystem of AI-led products and services.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="/" class="logo-group">
-                <img src="company logo/Ovvos logo on white background.png" alt="Ovdos Logo" class="brand-logo">
+
+<!-- ═══════════════════════════════════════════
+     HERO — fullscreen video + nav + headline
+     ═══════════════════════════════════════════ -->
+<div class="hero-wrapper">
+
+    <video class="hero-video" autoplay loop muted playsinline>
+        <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4" type="video/mp4">
+    </video>
+
+
+
+    <!-- NAV -->
+    <nav class="hero-nav">
+        <div class="hero-nav-inner">
+            <a href="/" class="hero-logo-link">
+                <img src="company logo/Ovvos logo on white background-Picsart-BackgroundRemover.png" alt="Ovdos" class="hero-logo-img">
             </a>
-            <nav class="nav-links">
-                <a href="#ecosystem">Products</a>
-                <a href="#what-we-do">What we do</a>
-                <a href="#who-we-are">Who we are</a>
-            </nav>
-            <div class="utility-nav">
-                <svg class="search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-                <div class="lang-selector">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
-                    <span>Global (En)</span>
-                </div>
-                <a href="#contact" class="btn-contact">Contact Us</a>
-            </div>
+            <ul class="hero-nav-links">
+                <li><a href="#" class="nav-link nav-link--active">Home</a></li>
+                <li><a href="#ecosystem" class="nav-link">Products</a></li>
+                <li><a href="#studio" class="nav-link">Studio</a></li>
+                <li><a href="#who-we-are" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Reach Us</a></li>
+            </ul>
+            <a href="#ecosystem" class="liquid-glass nav-cta">Explore Ecosystem</a>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section class="hero">
-            <img src="globe.png" alt="Ovdos Globe" class="hero-bg">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Building the digital<br>backbone for the world's<br>modern institutions
-                </h1>
-                <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto;">Ovdos architecting a sophisticated ecosystem of AI-led infrastructure and software solutions that empower organizations to scale with intelligence.</p>
-                <a href="#ecosystem" class="btn-learn">Explore Ecosystem</a>
+    <!-- HERO CONTENT -->
+    <section class="hero-content">
+        <h1 class="hero-h1 animate-fade-rise">
+            The intelligence layer for <em class="hero-em">modern institutions.</em>
+        </h1>
+        <p class="hero-sub animate-fade-rise-delay">
+            AI-led software that automates what slows you down.
+        </p>
+        <a href="#ecosystem" class="liquid-glass hero-cta animate-fade-rise-delay-2">Explore Ecosystem</a>
+    </section>
+
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     PRODUCT ECOSYSTEM
+     ═══════════════════════════════════════════ -->
+<section id="ecosystem" class="site-section">
+    <div class="container">
+
+        <div class="section-label reveal">ECOSYSTEM</div>
+        <h2 class="section-heading reveal">
+            A growing hub<br><em class="display-em">of innovation.</em>
+        </h2>
+        <p class="section-sub reveal">
+            Anti Schedule is just the beginning. Our mission is to build an interconnected suite of tools that solve the most complex administrative and operational challenges.
+        </p>
+
+        <div class="product-grid">
+
+            <!-- Flagship -->
+            <div class="product-card reveal">
+                <div class="product-card-top">
+                    <span class="card-tag">Flagship Solution</span>
+                    <h3 class="card-heading">Anti Schedule</h3>
+                    <p class="card-body">Advanced AI-powered school timetable and management software. Conflict-free scheduling for high-scale institutions, built on a real-time conflict-resolution engine.</p>
+                </div>
+                <a href="https://antischedule.in" target="_blank" class="card-link">
+                    Launch Product <span class="card-link-arrow">→</span>
+                </a>
             </div>
 
-            <!-- Wavy Lines Background -->
-            <div class="waves-container">
-                <svg class="wave-svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-                    <path class="wave wave-blue" d="M0,160 C320,300 420,10 640,160 C860,310 960,10 1440,160 V320 H0 Z"></path>
-                    <path class="wave wave-orange" d="M0,180 C320,320 420,30 640,180 C860,330 960,30 1440,180 V320 H0 Z" style="stroke-dasharray: 10, 10;"></path>
-                    <path class="wave wave-blue" d="M0,200 C320,340 420,50 640,200 C860,350 960,50 1440,200" style="opacity: 0.3;"></path>
-                    <path class="wave wave-orange" d="M0,220 C320,360 420,70 640,220 C860,370 960,70 1440,220" style="opacity: 0.4;"></path>
-                </svg>
+            <!-- Coming soon -->
+            <div class="product-card product-card--ghost reveal">
+                <div class="pulse-dot"></div>
+                <span class="card-tag card-tag--dim">Innovation in Progress</span>
+                <h3 class="card-heading" style="margin-top: 1.5rem;">Next Horizon</h3>
+                <p class="card-body">We are currently architecting our next major software solution for enterprise-level institutional management.</p>
             </div>
-        </section>
 
-        <!-- Product Ecosystem Section -->
-        <section id="ecosystem" class="section section-dark">
-            <div class="container reveal">
-                <div class="text-center" style="margin-bottom: 5rem;">
-                    <span class="story-badge">ECOSYSTEM</span>
-                    <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">A Growing Hub of Innovation</h2>
-                    <p style="color: var(--text-secondary); max-width: 700px; margin: 0 auto;">Anti Schedule is just the beginning. Our mission is to build an interconnected suite of tools that solve the most complex administrative and operational challenges.</p>
+            <!-- Consulting -->
+            <div class="product-card reveal">
+                <div class="product-card-top">
+                    <span class="card-tag card-tag--dim">Consulting</span>
+                    <h3 class="card-heading">Custom Architecture</h3>
+                    <p class="card-body">Bespoke technical engineering services for institutions with unique operational requirements and scale.</p>
                 </div>
-
-                <div class="product-grid">
-                    <!-- Anti Schedule Card -->
-                    <div class="product-card">
-                        <div>
-                            <span class="product-tag">Flagship Solution</span>
-                            <h3 class="product-name">Anti Schedule</h3>
-                            <p class="product-desc">Advanced AI-powered school timetable and management software. Conflict-free scheduling for high-scale institutions.</p>
-                        </div>
-                        <a href="https://antischedule.in" target="_blank" style="color: #ff0000; text-decoration: none; font-weight: 700; letter-spacing: 1px;">LAUNCH PRODUCT →</a>
-                    </div>
-
-                    <!-- Future Product Card -->
-                    <div class="product-card coming-soon-card">
-                        <div class="coming-soon-pulse">✨</div>
-                        <span class="coming-soon-badge">Innovation in Progress</span>
-                        <h3 style="margin-top: 1rem; color: white;">Next Horizon</h3>
-                        <p style="color: rgba(255,255,255,0.4); margin-top: 1rem;">We are currently architecting our next major software solution for enterprise-level institutional management.</p>
-                    </div>
-
-                    <!-- Institutional Services Card -->
-                    <div class="product-card">
-                        <div>
-                            <span class="product-tag" style="background: rgba(255,255,255,0.1); color: white;">Consulting</span>
-                            <h3 class="product-name">Custom Architecture</h3>
-                            <p class="product-desc">Bespoke technical engineering services for institutions with unique operational requirements.</p>
-                        </div>
-                        <a href="#contact" style="color: white; text-decoration: none; font-weight: 700; letter-spacing: 1px;">ENQUIRE NOW →</a>
-                    </div>
-                </div>
+                <a href="#contact" class="card-link">
+                    Enquire Now <span class="card-link-arrow">→</span>
+                </a>
             </div>
-        </section>
 
-        <!-- Who We Are / Founders Section -->
-        <section id="who-we-are" class="section section-dark" style="background: linear-gradient(180deg, #000a12 0%, #001220 100%);">
-            <div class="container reveal">
-                <div class="text-center" style="margin-bottom: 5rem;">
-                    <span class="story-badge">OUR STORY</span>
-                    <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Where Pedagogy Meets Technology</h2>
-                    <p style="color: var(--text-secondary); max-width: 800px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8;">
-                        Ovdos was born from a simple observation: institutions are complex ecosystems, yet their management tools were stuck in the past. We combined the deep, frontline experience of a university educator with world-class engineering to build <strong>Anti Schedule</strong> and the future of Ovdos.
-                    </p>
-                </div>
-
-                <div class="founder-grid">
-                    <!-- Vishal Bhardwaj -->
-                    <div class="founder-card">
-                        <div class="founder-icon">🎓</div>
-                        <span class="founder-role">Non-Tech Founder</span>
-                        <h3 class="founder-name">Vishal Bhardwaj</h3>
-                        <p class="founder-bio">
-                            A respected University Professor with years of experience in the educational trenches. Vishal witnessed firsthand the cascading chaos caused by manual scheduling and teacher absenteeism. He brought the "pedagogical blueprint"—the deep understanding of classroom problems—that forms the soul of our software.
-                        </p>
-                    </div>
-
-                    <!-- Vaibhav Katare -->
-                    <div class="founder-card">
-                        <div class="founder-icon">💻</div>
-                        <span class="founder-role">Tech Founder</span>
-                        <h3 class="founder-name">Vaibhav Katare</h3>
-                        <p class="founder-bio">
-                            The technical architect behind Ovdos. Vaibhav translated complex educational constraints into a high-performance AI engine. His vision for "anti-gravity" scheduling—making the impossible tasks effortless—turned Vishal's pedagogical insights into the lightning-fast, conflict-free reality of Anti Schedule.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="text-center" style="margin-top: 5rem; padding: 4rem; background: rgba(255, 255, 255, 0.02); border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.05);">
-                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">The Ovdos Mission</h3>
-                    <p style="color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
-                        We don't just build software; we build time. By automating the administrative burden, we give institutional leaders the freedom to focus on their core mission: <strong>Growth.</strong>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- What We Do -->
-        <section id="what-we-do" class="section">
-            <div class="container reveal">
-                <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: #000a12;">Our Core Capabilities</h2>
-                <p style="max-width: 600px; margin-bottom: 4rem; color: #444;">Ovdos helps modern organizations navigate their digital journey through smart AI and industrial-grade software engineering.</p>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-                    <div>
-                        <h3 style="color: #ff0000; margin-bottom: 1rem;">Institutional AI</h3>
-                        <p style="color: #666;">Harnessing the power of generative AI and custom LLMs to solve systemic operational challenges.</p>
-                    </div>
-                    <div>
-                        <h3 style="color: #ff0000; margin-bottom: 1rem;">Infrastructure Software</h3>
-                        <p style="color: #666;">Building intuitive, high-scale platforms that serve as the digital nervous system for your institution.</p>
-                    </div>
-                    <div>
-                        <h3 style="color: #ff0000; margin-bottom: 1rem;">Scale Transformation</h3>
-                        <p style="color: #666;">Helping traditional systems transition into automated, cloud-native environments at institutional scale.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section section-dark" style="border-top: 1px solid rgba(255,255,255,0.05);">
-            <div class="container text-center reveal">
-                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Partner with Ovdos</h2>
-                <p style="color: var(--text-secondary); margin-bottom: 3rem;">Ready to build the future of institutional management? Reach out to us directly.</p>
-                <div style="display: inline-flex; flex-wrap: wrap; gap: 3rem; justify-content: center; text-align: left;">
-                    <div style="background: rgba(255,255,255,0.03); padding: 2rem; border-radius: 15px; min-width: 280px; border: 1px solid rgba(255,255,255,0.05);">
-                        <p style="color: var(--text-secondary); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">Call Us</p>
-                        <a href="tel:6265010801" style="color: white; font-size: 1.5rem; text-decoration: none; font-weight: 600;">+91 6265010801</a>
-                    </div>
-                    <div style="background: rgba(255,255,255,0.03); padding: 2rem; border-radius: 15px; min-width: 280px; border: 1px solid rgba(255,255,255,0.05);">
-                        <p style="color: var(--text-secondary); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">Email Us</p>
-                        <a href="mailto:ovdos.company@gmail.com" style="color: white; font-size: 1.5rem; text-decoration: none; font-weight: 600;">ovdos.company@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer style="background: #000a12; padding: 4rem 0; border-top: 1px solid rgba(255,255,255,0.05); color: white;">
-        <div class="container">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 3rem;">
-                <div>
-                    <div class="logo-group" style="margin-bottom: 1.5rem;">
-                        <img src="company logo/Ovvos logo on white background.png" alt="Ovdos Logo" class="brand-logo">
-                    </div>
-                    <p style="color: rgba(255,255,255,0.5); font-size: 0.9rem; max-width: 300px;">Architecting the digital infrastructure for modern institutions through intelligent, AI-led ecosystems.</p>
-                </div>
-                <div>
-                    <h4 style="margin-bottom: 1.5rem;">Company Info</h4>
-                    <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">Email: <a href="mailto:ovdos.company@gmail.com" style="color: white; text-decoration: none;">ovdos.company@gmail.com</a></p>
-                    <p style="color: var(--text-secondary);">Phone: <a href="tel:6265010801" style="color: white; text-decoration: none;">+91 6265010801</a></p>
-                </div>
-            </div>
-            <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
-                <p style="color: rgba(255,255,255,0.5); font-size: 0.9rem;">&copy; 2026 Ovdos. All rights reserved.</p>
-            </div>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+
+<!-- ═══════════════════════════════════════════
+     STUDIO / WHAT WE DO
+     ═══════════════════════════════════════════ -->
+<section id="studio" class="site-section site-section--bordered">
+    <div class="container">
+
+        <div class="section-label reveal">CAPABILITIES</div>
+        <h2 class="section-heading reveal">
+            We build what<br><em class="display-em">institutions need.</em>
+        </h2>
+        <p class="section-sub reveal">
+            Ovdos helps modern organizations navigate their digital journey through intelligent AI and industrial-grade software engineering.
+        </p>
+
+        <div class="capabilities-grid">
+
+            <div class="capability-item reveal">
+                <div class="cap-number">01</div>
+                <h3 class="cap-heading">Institutional AI</h3>
+                <p class="cap-body">Harnessing generative AI and custom language models to solve systemic operational challenges at scale.</p>
+            </div>
+
+            <div class="capability-item reveal">
+                <div class="cap-number">02</div>
+                <h3 class="cap-heading">Infrastructure Software</h3>
+                <p class="cap-body">Building intuitive, high-scale platforms that serve as the digital nervous system for your institution.</p>
+            </div>
+
+            <div class="capability-item reveal">
+                <div class="cap-number">03</div>
+                <h3 class="cap-heading">Scale Transformation</h3>
+                <p class="cap-body">Helping traditional systems transition into automated, cloud-native environments at institutional scale.</p>
+            </div>
+
+            <div class="capability-item reveal">
+                <div class="cap-number">04</div>
+                <h3 class="cap-heading">Custom Engineering</h3>
+                <p class="cap-body">Full-stack product development from architecture to deployment, designed for precision and longevity.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     WHO WE ARE — FOUNDERS
+     ═══════════════════════════════════════════ -->
+<section id="who-we-are" class="site-section site-section--bordered">
+    <div class="container">
+
+        <div class="section-label reveal">OUR STORY</div>
+        <h2 class="section-heading reveal">
+            The people behind<br><em class="display-em">Ovdos.</em>
+        </h2>
+        <p class="section-sub reveal">
+            Two individuals who saw the same problem from opposite ends — one from inside the classroom, one from inside the codebase. Together, turning institutional chaos into intelligent infrastructure.
+        </p>
+
+        <div class="founders-grid">
+
+            <!-- Vishal -->
+            <div class="founder-card reveal">
+                <div class="founder-top">
+                    <span class="founder-discipline">Research Scholar · Geography</span>
+                    <span class="founder-role">Founder &amp; Director</span>
+                </div>
+                <h3 class="founder-name">Vishal Bhardwaj</h3>
+                <p class="founder-bio">
+                    A Research Scholar in Geography and Founder of Ovdos, Vishal leads with one clear belief: question how things are done, then build something fundamentally better. His geographical background gives him a rare systems-thinking lens — applied directly to every decision Ovdos makes. He drives bold strategies, disciplined execution, and a culture of relentless improvement.
+                </p>
+                <div class="founder-rule"></div>
+                <span class="founder-philosophy">"Technology not merely relevant today, but essential tomorrow."</span>
+            </div>
+
+            <!-- Vaibhav -->
+            <div class="founder-card reveal">
+                <div class="founder-top">
+                    <span class="founder-discipline">Full-Stack Engineer · AI Architect</span>
+                    <span class="founder-role">Chief Executive Officer</span>
+                </div>
+                <h3 class="founder-name">Vaibhav Katare</h3>
+                <p class="founder-bio">
+                    The engineer who built Ovdos from the ground up. Vaibhav architected Anti Schedule's conflict-resolution engine, designed its real-time database infrastructure, and integrated AI-driven automation that institutions have never seen before. As CEO, he drives product execution, engineering culture, and the technical roadmap.
+                </p>
+                <div class="founder-rule"></div>
+                <span class="founder-philosophy">"If scheduling can be made effortless, anything can."</span>
+            </div>
+
+        </div>
+
+        <!-- Mission statement -->
+        <div class="mission-block reveal">
+            <p class="mission-eyebrow">The Ovdos Mission</p>
+            <h3 class="mission-statement">
+                We don't just build software —<br><em class="display-em">we build time.</em>
+            </h3>
+            <p class="mission-body">By automating the administrative burden, we give institutional leaders the freedom to focus on their core mission: growth.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CONTACT
+     ═══════════════════════════════════════════ -->
+<section id="contact" class="site-section site-section--bordered">
+    <div class="container">
+
+        <div class="section-label reveal">REACH US</div>
+        <h2 class="section-heading reveal">
+            Ready to build<br><em class="display-em">the future?</em>
+        </h2>
+        <p class="section-sub reveal">
+            Partner with Ovdos. Reach out directly — no forms, no friction.
+        </p>
+
+        <div class="contact-grid">
+            <a href="tel:8826615543" class="contact-card reveal">
+                <span class="contact-card-label">Call Us</span>
+                <span class="contact-card-value">+91 88266 15543</span>
+                <span class="contact-card-arrow">→</span>
+            </a>
+            <a href="mailto:ovdos.company@gmail.com" class="contact-card reveal">
+                <span class="contact-card-label">Email Us</span>
+                <span class="contact-card-value">ovdos.company@gmail.com</span>
+                <span class="contact-card-arrow">→</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════ -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-inner">
+
+            <div class="footer-brand">
+                <img src="company logo/Ovvos logo on white background-Picsart-BackgroundRemover.png" alt="Ovdos" class="footer-logo">
+                <p class="footer-tagline">Architecting the digital infrastructure for modern institutions through intelligent, AI-led ecosystems.</p>
+            </div>
+
+            <div class="footer-links-col">
+                <span class="footer-col-heading">Navigate</span>
+                <a href="#ecosystem" class="footer-link">Products</a>
+                <a href="#studio" class="footer-link">Studio</a>
+                <a href="#who-we-are" class="footer-link">About</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+
+            <div class="footer-links-col">
+                <span class="footer-col-heading">Contact</span>
+                <a href="mailto:ovdos.company@gmail.com" class="footer-link">ovdos.company@gmail.com</a>
+                <a href="tel:8826615543" class="footer-link">+91 88266 15543</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span class="footer-copy">&copy; 2026 Ovdos. All rights reserved.</span>
+            <span class="footer-legal">Institutional Infrastructure &amp; AI Services</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
